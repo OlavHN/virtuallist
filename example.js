@@ -1,7 +1,7 @@
 /** @jsx React.DOM */
 var React = require('react/addons');
 var ReactCSSTransitionGroup = React.addons.CSSTransitionGroup;
-var List = require('../dist/list');
+var List = require('./dist/list');
 
 window.React = React;
 
