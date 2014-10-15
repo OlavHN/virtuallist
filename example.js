@@ -1,7 +1,7 @@
 /** @jsx React.DOM */
 var React = require('react/addons');
 var ReactCSSTransitionGroup = React.addons.CSSTransitionGroup;
-var List = require('./list');
+var List = require('../dist/list');
 
 window.React = React;
 
@@ -30,7 +30,7 @@ var Example = React.createClass({
             return <div key={item}>{item}</div>
           })}
         </ReactCSSTransitionGroup>
-        
+
         <form onSubmit={this.add}>
           <input placeholder="get milk" type="text" value={text} onChange={this.handleChange} />
         </form>

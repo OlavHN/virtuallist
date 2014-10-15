@@ -1,0 +1,29 @@
+.example {
+  /* For each element the transform is set to translate3d(0, offsetY %, 0); */
+  transition: -webkit-transform 3s ease-in;
+  transition: transform 3s ease-in;
+}
+
+.example-enter {
+  background: red;
+  transition: -webkit-transform 3s ease-in;
+  transition: transform 3s ease-in;
+
+  -webkit-transform: translate3d(0, -100%, 0) scale3d(1, 0, 1);
+  transform: translate3d(0, -100%, 0) scale3d(1, 0, 1);
+}
+
+.example-enter.example-enter-active {
+  background: red;
+  -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+  transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+}
+
+.example-leave {
+  transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+  transition: transform 3s;
+}
+
+.example-leave.example-leave-active {
+  transform: translate3d(0, -100%, 0) scale3d(1, 0, 1);
+}
