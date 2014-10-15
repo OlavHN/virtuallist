@@ -1,0 +1,22 @@
+{
+  "name": "react-virtuallist",
+  "version": "0.0.5",
+  "description": "Virtual list for react",
+  "main": "dist/list.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OlavHN/virtuallist"
+  },
+  "keywords": [
+    "react-component",
+    "react",
+    "list",
+    "virtual-list"
+  ],
+  "author": "Olav Nymoen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OlavHN/virtuallist/issues"
+  },
+  "homepage": "https://github.com/OlavHN/virtuallist"
+}
